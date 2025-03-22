@@ -2,7 +2,6 @@
 
 Set up user accounts and configure secure access controls for the new developers.
 
-
 ## Step 1: Enforce Password Policy (System-wide)
 
 - Install libpam-pwquality 
@@ -18,7 +17,9 @@ ocredit = -1   # At least one special character`
 ```
 
 ### Output ###
+
 **Set Up Rules for the password**
+
 ![alt text](outputs/password_rules.png)
 
 ## Step 2: Create Users and Set Passwords
@@ -36,9 +37,11 @@ sudo passwd mike
 ### Output ###
 
 **Validation of Password**
+
 ![alt text](outputs/validate_pass.png)
 
 **Set Valid Password**
+
 ![alt text](outputs/set_password.png)
 
 
@@ -64,6 +67,7 @@ sudo chmod 700 /home/mike/workspace
 ### Output ###
 
 **Create of folders with Permission for respective users**
+
 ![alt text](outputs/permission.png)
 
 
@@ -78,7 +82,9 @@ PASS_WARN_AGE   7
 ```
 
 ### Output ###
+
 **Set Up Max and Min Days**
+
 ![alt text](outputs/max_min_days.png)
 
 
